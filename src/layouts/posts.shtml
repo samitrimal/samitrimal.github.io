@@ -3,7 +3,8 @@
 <title id="title" :text="$page.title"></title>
 
 <body id="main">
-  <h1>Blog</h1>
-  <div :html="$page.content()"></div>
+   <div class="page">
+   <div class="content" :html="$page.content()"></div>
+  </div>
 </body>
 

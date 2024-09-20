@@ -1,9 +1,7 @@
 <extend template="base.shtml">
-
 <title id="title" :text="$page.title"></title>
-
 <body id="main">
-  <h1>Blog</h1>
+  <div class="page"> 
   <h2 :text="$page.title"></h2>
   <h3>by <span :text="$page.author"></span></h3>
   <h4>
@@ -12,4 +10,5 @@
     </span>
   </h4>
   <div :html="$page.content()"></div>
+  </div>
 </body>
