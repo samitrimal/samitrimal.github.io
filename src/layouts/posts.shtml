@@ -1,0 +1,9 @@
+<extend template="base.shtml">
+
+<title id="title" :text="$page.title"></title>
+
+<body id="main">
+  <h1>Blog</h1>
+  <div :html="$page.content()"></div>
+</body>
+
