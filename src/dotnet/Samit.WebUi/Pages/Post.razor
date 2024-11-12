@@ -1,0 +1,26 @@
+@page "/post/{url}"
+@inject HttpClient Http
+<PageTitle>Post Detail</PageTitle>
+@if(post is null)
+{
+	<p> Loading ....</p>
+}
+else
+{
+<h1>@post.Title</h1>
+ @((MarkupString)post.Content)
+}
+@code {
+[Parameter]
+    public string url { get; set; }
+	private PostDetailModel? post;  
+	private bool isLoaded {get;set;}= false;
+    protected override async Task OnInitializedAsync()
+    {
+        post = await Http.GetFromJsonAsync<PostDetailModel>("data/posts/test/test.json");
+		if(post is not null){
+			post.Content = Markdig.Markdown.ToHtml(post.Content); 
+		}
+    }
+}
+
