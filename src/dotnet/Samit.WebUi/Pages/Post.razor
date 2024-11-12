@@ -17,7 +17,7 @@ else
 	private bool isLoaded {get;set;}= false;
     protected override async Task OnInitializedAsync()
     {
-        post = await Http.GetFromJsonAsync<PostDetailModel>("data/posts/test/test.json");
+        post = await Http.GetFromJsonAsync<PostDetailModel>($"data/posts/{url}/{url}.json");
 		if(post is not null){
 			post.Content = Markdig.Markdown.ToHtml(post.Content); 
 		}
