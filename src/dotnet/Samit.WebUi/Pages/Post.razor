@@ -19,7 +19,14 @@ else
     {
         post = await Http.GetFromJsonAsync<PostDetailModel>($"data/posts/{url}/{url}.json");
 		if(post is not null){
-			post.Content = Markdig.Markdown.ToHtml(post.Content); 
+		 var response = await Http.GetAsync($"data/posts/{url}/{url}.md");
+
+                // Ensure the request was successful
+                response.EnsureSuccessStatusCode();
+
+                // Read the response content
+                string content = await response.Content.ReadAsStringAsync();
+			post.Content = Markdig.Markdown.ToHtml(content); 
 		}
     }
 }
