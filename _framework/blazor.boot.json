@@ -1,15 +1,15 @@
 {
   "mainAssemblyName": "Samit.WebUi",
   "resources": {
-    "hash": "sha256-XXBd+IhCGk5OXu7kW32jqDywjUIiByoaOGueo1r7gyU=",
+    "hash": "sha256-bb2A+PyMiRwM3rlgpEJZajB2FG9DAnbXafLsZLALJGQ=",
     "jsModuleNative": {
-      "dotnet.native.8.0.11.uaojegkthd.js": "sha256-VdKq87/z5NIxZKmuM+fv38XF+RcEb/bg3jVBwQSfwP4="
+      "dotnet.native.8.0.11.a0kyk7f7iw.js": "sha256-ERqvs7Aj650n1Ydca90IMfnkPzusC7/hWWMjmGRL3ME="
     },
     "jsModuleRuntime": {
-      "dotnet.runtime.8.0.11.gh7q73lw5v.js": "sha256-nam8JTYKjhMKOTg6+FlihYP6JpWPGe3jjM9fiUFWzhY="
+      "dotnet.runtime.8.0.11.8vkpoocl13.js": "sha256-nam8JTYKjhMKOTg6+FlihYP6JpWPGe3jjM9fiUFWzhY="
     },
     "wasmNative": {
-      "dotnet.native.wasm": "sha256-1NJsNYy4gznvjVwzcG5w3Cl50enK1KB/7cKBMY+6jz4="
+      "dotnet.native.wasm": "sha256-lf1frKdhzQZd4Io9IahZ1gvFQrLyuomE55mw1uFBDcU="
     },
     "icu": {
       "icudt_CJK.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -32,7 +32,7 @@
       "Microsoft.Extensions.Primitives.wasm": "sha256-6187ynEahDlSLMBvD4vAmiLpZ3clRb5xu6rM7O8AxNo=",
       "Microsoft.JSInterop.wasm": "sha256-dDy7ROT2qoSpC98LnJGDVNfBM+5zJM+LuIN8Af0hvEA=",
       "Microsoft.JSInterop.WebAssembly.wasm": "sha256-r/+bWAAxKn2+Wu3MRYDXvKEbHjLNuptflgNuNhQdK6w=",
-      "Samit.WebUi.wasm": "sha256-ofseoz2CfRTAMlDoodp6g5CulqykeEHI3vmGy2/gaQY=",
+      "Samit.WebUi.wasm": "sha256-WG44dJUR/CTi6UcgEYKaBhLKcoPelJ+Grtj4luv8TVw=",
       "System.Collections.Concurrent.wasm": "sha256-FV+v8fQleoO7YaZZ9p96Ysvf/3PjBmODO1GImzzinbw=",
       "System.Collections.wasm": "sha256-AcoVsEM03zA61tzidCsCUs+UyniPKjZz8yFwPc9OjYA=",
       "System.ComponentModel.wasm": "sha256-ZQumzHtMyxvojdF7oHBBb8pLXJYa4ErOf6oZOZey1OU=",
