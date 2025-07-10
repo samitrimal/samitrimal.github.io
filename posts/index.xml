@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Samit Rimal</title>
+    <link>https://samitrimal.com.np/posts/</link>
+    <description>Recent content in Posts on Samit Rimal</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 10 Jul 2025 11:51:40 +0545</lastBuildDate>
+    <atom:link href="https://samitrimal.com.np/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello</title>
+      <link>https://samitrimal.com.np/posts/hello/</link>
+      <pubDate>Thu, 10 Jul 2025 11:51:40 +0545</pubDate>
+      <guid>https://samitrimal.com.np/posts/hello/</guid>
+      <description>&lt;p&gt;Welcome to my first post. I wanted to use some static site generator and I have decided to use &lt;strong&gt;Hugo&lt;/strong&gt; to create this blog.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
